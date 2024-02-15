@@ -1,4 +1,3 @@
-import math
 import os
 import requests
 from PIL import Image
@@ -78,4 +77,3 @@ class ImageDownloader:
         os.rename(self.save_path, new_path)
         self.save_path = new_path
         print(f"Image renamed successfully to {new_name}{current_format}")
-
